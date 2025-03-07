@@ -11,6 +11,7 @@ public class PasswordStrengthMeterTest {
         PasswordStrength result = meter.meter(password);
         assertEquals(expStr, result);
     }
+
     @Test
     public void meetsAllCriteria_Then_Strong() {
         assertStrength("ab12!@AB", PasswordStrength.STRONG);
