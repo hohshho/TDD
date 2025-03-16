@@ -1,5 +1,5 @@
-import chap02.PasswordStrength;
-import chap02.PasswordStrengthMeter;
+package chap02;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
